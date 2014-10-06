@@ -41,7 +41,7 @@ public class RequestBuilder
 	}
 	
 	private StringBuilder   urlParameters   = new StringBuilder(),
-						    response        = new StringBuilder();
+				response        = new StringBuilder();
 	
 	private RequestType     requestType     = RequestType.GET; 
 	

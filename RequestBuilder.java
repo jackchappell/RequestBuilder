@@ -47,17 +47,17 @@ public class RequestBuilder
 	
 	private RequestRunnable finishRunnable  = null;  
 	
-	private boolean 	    useCaches       = false, 
-						    doInput         = true, 
-						    doOutput        = true,
-						    async           = false;
+	private boolean         useCaches       = false, 
+				doInput         = true, 
+				doOutput        = true,
+				async           = false;
 	
-	private String  	    contentLanguage = "en-UK", 
-				    	    contentType     = "application/x-www-form-urlencoded",
-				    	    userAgent       = "Mozilla/5.0",
-			                url             = "";
+	private String  	contentLanguage = "en-UK", 
+				contentType     = "application/x-www-form-urlencoded",
+				userAgent       = "Mozilla/5.0",
+			        url             = "";
 	
-	private int     	    responseCode    = 0;
+	private int     	responseCode    = 0;
 	
 	public RequestBuilder setURL(String url)
 	{
